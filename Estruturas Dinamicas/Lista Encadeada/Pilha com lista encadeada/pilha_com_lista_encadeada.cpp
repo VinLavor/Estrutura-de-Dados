@@ -15,7 +15,7 @@ pilhadinamica:: pilhadinamica(){
 
 pilhadinamica:: ~pilhadinamica(){
     Noh* temporario;
-    while(noh_topo != nullptr){
+    while(temporario != nullptr){
         temporario = noh_topo;
         noh_topo = noh_topo ->proximo;
         delete temporario;  
