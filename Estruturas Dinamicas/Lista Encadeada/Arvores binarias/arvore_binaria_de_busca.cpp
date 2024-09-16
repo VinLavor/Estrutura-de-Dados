@@ -6,7 +6,7 @@ class ArvoreBinaria{
     struct Noh{
         Noh* esquerda;
         Noh* direita;
-        int valor;
+        int valor;  
     };
 
     Noh* raiz;
